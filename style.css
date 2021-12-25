@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif
+}
+
+:root {
+    --blue: rgb(21, 178, 229);
+    --blue_dark:rgb(32, 129, 226);
+    --darker_blue: rgb(4, 17, 29);
+}
+
+.d_flex_colomn {
+    display: flex;
+    flex-direction: column;
+}
+
+.d_flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Header Section */
+
+header {
+   position: fixed;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 15px 25px;
+    box-shadow: 0 3px 5px rgb(211, 209, 209);
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.hamurger_menu {
+    width: 7vw;
+}
+
+.navbar {
+    width: 9%;
+}
+
+.navbar_menu {
+    display: none;
+}
+
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9)), url('./images/unnamed.jpg');
+    padding: 90px 30px;
+    text-align: center;
+}
+
+.hero_headline {
+    align-items: center;
+    
+}
+
+.headline {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 110%;
+}
+
+.headline_text {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.btns_container {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.button {
+    text-decoration: none;
+    border-radius: 9px;
+    color: #fff;
+    background-color: var(--blue_dark);
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.create {
+    color: var(--blue_dark);
+    background-color: #fff;
+    border: 1px var(--blue_dark) solid;
+}
+
+.hero_img_container {
+    width: 95%;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0 5px 5px gray;
+}
+
+.hero_img {
+    width: 100%;
+    border-radius: 17px 17px 0 0;
+}
+
+.hero_img_container_bottom {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.uer_img {
+    border-radius: 50px;
+    width: 15%;
+    height: 15%;
+}
+
+.user_info {
+    align-items: flex-start;
+    width: 60%;
+    text-align: start;
+    margin-left: 14px;
+}
+
+.project_name {
+    font-weight: 600;
+}
+
+.see_project {
+    text-decoration: none;
+    color: var(--blue_dark);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.video_link {
+    text-decoration: none;
+    color: var(--blue_dark);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Notale Drops */ 
+
+.section_title {
+    text-align: center;
+    color: var(--darker_blue);
+    font-weight: 600;
+    font-size: 24px;
+    padding: 0 35px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 90%;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(190, 184, 186);
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.card_img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card_info {
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    height: 35%;
+    line-height: 110%;
+}
+
+.card_name {
+    font-size: 21px;
+}
+
+.card_info_txt {
+    font-size: 15px;
+}
+
+.live_link {
+    color: #fff;
+    text-decoration: none;
+    border: 1px #fff solid;
+    border-radius: 8px;
+    padding: 4px 7px;
+    font-weight: 600;
+}
+
+/*  Collection Section */
+
+.collection {
+    align-items: center;
+    margin: 50px 0;
+}
+
+.top_users {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.dropdown {
+    color: var(--blue_dark);
+}
+
+.the_user {
+    align-items: center;
+    justify-content: space-around;
+    color: var(--darker_blue);
+    border-bottom: 1px rgb(179, 187, 194) solid;
+    padding: 20px 0;
+}
+
+.number {
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.the_user_img {
+    border-radius: 50px;
+    width: 15%;
+}
+
+.the_uer_info {
+    margin-right: 70px;
+}
+
+.statistics {
+    color: rgb(138, 147, 155);
+}
+
+.persentage {
+    color: rgb(52, 199, 123);
+}
+
+/* Trending section */
+
+.trend_title {
+    padding: 0;
+}
+
+.trend_cards {
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.trend_card {
+    background-color: #fff;
+    width: 85vw;
+    height: 60vh;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px rgb(206, 214, 218) solid;
+}
+
+.trend_img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.account_name {
+    align-items: center;
+    margin: 17px 0;
+    color: var(--darker_blue);
+}
+
+.name_acc {
+    color: rgb(138, 147, 155);
+}
+
+.account_name span {
+    color: var(--blue);
+    font-weight: 500;
+}
+
+.trend_more_info {
+    color: rgb(138, 147, 155);
+}
+
+.meduim {
+    text-decoration: none;
+    color: var(--blue);
+    font-weight: 500;
+}
+
+/* NFT Section */
+
+.NFT_cards {
+    width: 100%;
+    align-items: center;
+}
+
+.NFT_card {
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+    color: rgb(138, 147, 155);
+    font-size: 17px;
+    margin: 30px;
+}
+
+.card_title {
+    color: var(--darker_blue);
+    margin: 10px 0;
+}
+
+.NFT_info a {
+    color: var(--blue_dark);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* categories section */
+
+.categories {
+    margin: 50px 0;
+}
+
+.category_cards {
+    align-items: center;
+    justify-content: center;
+}
+
+.category_card {
+    align-items: center;
+    width: 90%;
+    height: 230px;
+    border: 0.5px rgb(206, 214, 218) solid;
+    border-radius: 8px;
+    margin: 45px 0;
+}
+
+.category_card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.category_card a {
+    color: rgb(53, 56, 64);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(30, 112, 194);
+    padding: 25px 20px;
+}
+
+.footer_txt {
+    color: #fff;
+    text-align: center;
+}
+
+.footer_txt h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer_txt p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+#email {
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    height: 40px;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.singup button {
+    border: none;
+}
+
+.social_media {
+    margin: 30px 20px;
+}
+
+.social_media h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.icon {
+    align-items: center;
+    justify-content: space-around;
+}
