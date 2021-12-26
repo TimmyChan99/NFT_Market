@@ -1,8 +1,8 @@
 const menu = document.querySelector('.navbar_menu');
 
  function OpenMenu () {
-    menu.style.display = "flex";
+    menu.style.visibility = "visible";
 }
  function closeMenu () {
-    menu.style.display = "none";
+    menu.style.visibility = "hidden";
 }

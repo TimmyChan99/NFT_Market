@@ -58,6 +58,7 @@ header {
     right: 0;
     bottom: 0;
     padding: 50px;
+    visibility: hidden;
 }
 
 .navbar_menu li {
@@ -177,7 +178,7 @@ header {
     margin-top: 20px;
 }
 
-/* Notale Drops */ 
+/* Notale Drops */
 
 .section_title {
     text-align: center;

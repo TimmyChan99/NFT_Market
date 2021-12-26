@@ -15,10 +15,13 @@
     }
 
     .navbar_menu {
+        position: relative;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row;
         list-style: none;
+        background-color: transparent;
+        padding: 0;
+        visibility: visible;
     }
 
     .close_btn {
