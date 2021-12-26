@@ -21,6 +21,10 @@
         list-style: none;
     }
 
+    .close_btn {
+        display: none;
+    }
+
     .navbar_menu li a {
         color: rgba(4, 17, 29, 0.75);
         text-decoration: none;

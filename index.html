@@ -12,8 +12,9 @@
     <header class="d_flex_row">
         <a href="#" class="logo">NFT Market</a>
         <nav class="navbar">
-            <img class="hamurger_menu" src="./images/menu_hamburger.png" alt="">
+            <img class="hamurger_menu" onclick="OpenMenu()" src="./images/menu_hamburger.png" alt="">
             <ul class="navbar_menu d_flex_row">
+                <li class="close_btn" onclick="closeMenu()">&#10006;</li>
                 <li><a href="#">Explore</a></li>
                 <li><a href="#">Stats</a></li>
                 <li><a href="#">About</a></li>
@@ -212,5 +213,7 @@
    </div>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

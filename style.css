@@ -49,7 +49,33 @@ header {
 }
 
 .navbar_menu {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 50px;
+}
+
+.navbar_menu li {
+    list-style: none;
+}
+
+.close_btn {
+    margin-left: 70%;
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--darker_blue);
+}
+
+.navbar_menu li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--darker_blue);
+    font-weight: 600;
 }
 
 /* Hero Section */
