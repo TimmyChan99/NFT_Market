@@ -62,7 +62,7 @@ header {
 
 .hero_headline {
     align-items: center;
-    
+    color: var(--darker_blue);
 }
 
 .headline {
@@ -110,6 +110,7 @@ header {
 
 .hero_img {
     width: 100%;
+    height: 80%;
     border-radius: 17px 17px 0 0;
 }
 
@@ -169,6 +170,7 @@ header {
 
 .card {
     width: 100%;
+    height: 60%;
     height: 80vh;
     background-color: rgb(190, 184, 186);
     border-radius: 10px;
@@ -279,6 +281,7 @@ header {
 .trend_img {
     border-radius: 10px 10px 0 0;
     width: 100%;
+    height: 60%;
 }
 
 .account_name {
@@ -356,6 +359,7 @@ header {
 
 .category_card img {
     width: 100%;
+    height: 75%;
     border-radius: 8px 8px 0 0;
 }
 

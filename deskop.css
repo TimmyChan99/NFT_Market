@@ -1,0 +1,139 @@
+@media screen and (min-width: 768px) {
+    /* Header Section */
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .navbar {
+        width: auto;
+        margin-right: 50px;
+    }
+
+    .hamurger_menu {
+        display: none;
+    }
+
+    .navbar_menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .navbar_menu li a {
+        color: rgba(4, 17, 29, 0.75);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0 20px 0 20px;
+    }
+
+    /* Hero Section */
+
+    .hero {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .hero_headline {
+        width: 30vw;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .headline {
+        font-size: 45px;
+    }
+
+    .headline_text {
+        font-size: 20px;
+        color: rgb(53, 56, 64);
+    }
+
+    .hero_img_container {
+        width: 362px;
+    }
+
+    .video_link {
+        display: none;
+    }
+
+    /* Notale Drops */ 
+
+    .cards {
+        grid-template-columns: 25% 25% 25%;
+        gap: 10px;
+    }
+
+    /*  Collection Section */
+
+    .top_users {
+        grid-template-columns: repeat(2, auto);
+        column-gap: 40px;
+    }
+
+    /* Trending section */
+
+
+    .trend_cards {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .trend_card {
+        width: 25%;
+    }
+
+    /* NFT Section */
+
+    .section_title {
+        margin: 50px 0;
+    }
+
+    .NFT_sell {
+        padding: 50px;
+    }
+
+    .NFT_cards {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        align-content: center;
+        justify-content: center;
+    }
+
+    /* categories section */
+
+    .category_cards {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        gap: 10px;
+    }
+
+    /* footer */
+
+    .footer_txt h6 {
+        margin: 40px 20px 0 0;
+    }
+
+    .footer_txt {
+        margin: 50px 0;
+    }
+
+    .singup {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #email {
+        width: 50%;
+        margin-right: 50px;
+    }
+
+    .social_media h6 {
+       margin: 50px;
+    }
+}

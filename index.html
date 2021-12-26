@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="deskop.css">
     <title>NFT Market</title>
 </head>
 <body>
@@ -12,7 +13,12 @@
         <a href="#" class="logo">NFT Market</a>
         <nav class="navbar">
             <img class="hamurger_menu" src="./images/menu_hamburger.png" alt="">
-            <ul class="navbar_menu"></ul>
+            <ul class="navbar_menu d_flex_row">
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Stats</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <section class="hero d_flex_colomn">
@@ -48,6 +54,25 @@
                     <p class="card_info_txt">A collection of images that detail experiences with isolation</p>
                     <a href="#" class="live_link">Live</a>
                 </div>
+
+            </div>
+            <div class="card">
+                <img src="./images/julia.jpeg" alt="julia" class="card_img">
+                <div class="card_info d_flex_colomn">
+                    <h3 class="card_name">Dear julia</h3>
+                    <p class="card_info_txt">A collection of images that detail experiences with isolation</p>
+                    <a href="#" class="live_link">Live</a>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="./images/julia.jpeg" alt="julia" class="card_img">
+                <div class="card_info d_flex_colomn">
+                    <h3 class="card_name">Dear julia</h3>
+                    <p class="card_info_txt">A collection of images that detail experiences with isolation</p>
+                    <a href="#" class="live_link">Live</a>
+                </div>
+
             </div>
         </div>
     </section>
@@ -159,14 +184,10 @@
                 <img src="./images/music.webp" alt="">
                 <a href="#">Music</a>
             </div>
-        </div>
-        <div class="category_cards d_flex_colomn">
             <div class="category_card d_flex_colomn">
                 <img src="./images/photography-category.webp" alt="">
                 <a href="#">Photography</a>
             </div>
-        </div>
-        <div class="category_cards d_flex_colomn">
             <div class="category_card d_flex_colomn">
                 <img src="./images/sports.webp" alt="">
                 <a href="#">Sports</a>
@@ -178,7 +199,7 @@
             <h6>Stay in the loop</h6>
             <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating OpenSea.</p>
         </div>
-        <div class="singup">
+        <div class="singup" id="contact">
             <input type="email" name="email" id="email" placeholder="Your email address">
             <button class="button">Sign up</button>
         </div>
